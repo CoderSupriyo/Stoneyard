@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "stoneyard",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
