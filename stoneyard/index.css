@@ -11,7 +11,7 @@ html, body{
     position: relative;
     text-align: center;
     background-color: black;
-    height: 85vh;
+    height: 75vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -33,6 +33,35 @@ html, body{
 }
 
 .header p{
-    padding: 2px;
+    padding: 10px;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+
 }
 
+
+/* Buttons */
+
+.btn{
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 4px 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: #24FE41;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.btn:hover{
+    background: black;
+    color: white;
+}
+
+.discord{
+    
+}
+
+.server{
+
+}
