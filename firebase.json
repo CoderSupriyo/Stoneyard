@@ -1,10 +1,23 @@
 {
-  "hosting": {
-    "public": "stoneyard",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  }
+  "hosting": [
+    {
+      "target": "website",
+      "public": "stoneyard",
+      "redirects": [
+        {
+          "source": "/discord",
+          "destination": "https://discord.gg/Fmy6Vx4",
+          "type": 301
+        }
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "cleanUrls": true,
+      "trailingSlash": false
+    }
+  ]
 }
