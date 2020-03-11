@@ -24,8 +24,18 @@ html,body{
 .content{
     text-align: center;
     font-family: 'PT Mono', monospace;
-    text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 20px;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+
+}
+
+@media screen and (min-width: 65rem){
+    .content{
+        font-size: 10px;
+        color: #fff;
+
+    }
 }
 
 ul, li{
