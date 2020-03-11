@@ -10,7 +10,7 @@ html,body{
     padding: 0;
     line-height: 1.6;
     background-color: #FFFFE0;
-    background-image: url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg);
+    background-image: url(https://us.123rf.com/450wm/burapa/burapa1705/burapa170500118/77411500-wall-green-background-texture-pattern-by-photoshop-.jpg?ver=6);
 }
 
 .header{
@@ -24,15 +24,22 @@ html,body{
 .content{
     text-align: center;
     font-family: 'PT Mono', monospace;
+    text-decoration: none;
 }
 
 ul, li{
     text-align: justify;
 }
-
+table{
+    border: 2px solid #00FF00;
+    border-collapse: collapse;
+    text-decoration: none;
+}
 
 td{
     text-align: left;
     padding: 5px;
     font-family: monospace;
+    background-color: #00FF00;
+    
 }
