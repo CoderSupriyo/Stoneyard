@@ -25,15 +25,17 @@ html,body{
     text-align: center;
     font-family: 'PT Mono', monospace;
     text-decoration: none;
+    color: black;
 }
 
 ul, li{
     text-align: justify;
 }
-table{
-    border: 2px solid #00FF00;
+table, td{
+    border: 2px solid #000;
     border-collapse: collapse;
     text-decoration: none;
+    color: white;
 }
 
 td{
