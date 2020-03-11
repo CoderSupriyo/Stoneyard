@@ -1,0 +1,38 @@
+/*Fonts*/
+@font-face {
+    font-family: minecraft;
+    src: url(./Minecrafter.Alt.ttf);
+  }
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #FFFFE0;
+    background-image: url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg);
+}
+
+.header{
+    text-align: center;
+    font-family: minecraft;
+    color: #fff;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+
+}
+
+.content{
+    text-align: center;
+    font-family: 'PT Mono', monospace;
+}
+
+ul, li{
+    text-align: justify;
+}
+
+
+td{
+    text-align: left;
+    padding: 5px;
+    font-family: monospace;
+}
