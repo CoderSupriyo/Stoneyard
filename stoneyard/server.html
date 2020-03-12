@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Server</title>
+
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!---->
+    <style>
+        body{
+            background-image: url(https://us.123rf.com/450wm/burapa/burapa1705/burapa170500118/77411500-wall-green-background-texture-pattern-by-photoshop-.jpg?ver=6);
+            color: white;
+        }
+        	.container {
+	width: 500px;
+    height: 100px;
+    margin: 20px auto;
+	border: 1px solid white;
+	text-align: center;
+	padding: 10px;
+}
+        #url{
+            
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Minecraft Server Address</h1> 
+        </div>
+
+        <!--Contents-->
+        <label for="url"><b>Address</b></label>
+        <input id="url" type="text"  value="stoneyard.1337srv.com">
+        
+        <button onclick="copyFunc(); myFunction();">Copy Address</button>
+    </div>
+
+    <script>
+      function copyFunc() {
+  var copyText = document.getElementById("url");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("The Address Is Copied!");
+}
+function myFunction() {
+  document.getElementById("myText").disabled = true;
+}
+
+    </script>
+
+</body>
+</html>
