@@ -17,36 +17,62 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!---->
     <style>
+
+@font-face {
+    font-family: minecraft;
+    src: url(./Minecrafter.Alt.ttf);
+  }
         body{
-            background-image: url(https://us.123rf.com/450wm/burapa/burapa1705/burapa170500118/77411500-wall-green-background-texture-pattern-by-photoshop-.jpg?ver=6);
+            background-image: url(https://wallpapercave.com/wp/8RXJF9q.jpg);
             color: white;
         }
         	.container {
 	width: 500px;
-    height: 100px;
-    margin: 20px auto;
+    height: 200px;
+    margin: 200px auto;
+    background-color: white;
+    color: black;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 	border: 1px solid white;
+    border-radius: 4px 4px;
 	text-align: center;
-	padding: 10px;
+    padding: 10px;
+    background-image: url(https://us.123rf.com/450wm/burapa/burapa1705/burapa170500118/77411500-wall-green-background-texture-pattern-by-photoshop-.jpg?ver=6);
+
 }
         #url{
             
             text-align: center;
         }
 
+        .btn{
+            border: 1px solid white;
+            border-radius: 4px 4px;
+            padding: 10px;
+            background-color: lime;
+            color: white;
+        }
+        .btn:hover{
+            border: 1px solid #61911B;
+            border-radius: 4px 4px;
+            background-color: white;
+            color: #61911B;
+        }
+
+
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>Minecraft Server Address</h1> 
+            <h1 style="font-family: minecraft; font-size: 25px;">Minecraft Server Address</h1> 
         </div>
 
         <!--Contents-->
-        <label for="url"><b>Address</b></label>
+            <br>
         <input id="url" type="text"  value="stoneyard.1337srv.com">
-        
-        <button onclick="copyFunc(); myFunction();">Copy Address</button>
+            <br><br>
+        <button onclick="copyFunc()" class="btn">Copy Address</button>
     </div>
 
     <script>
@@ -56,9 +82,6 @@
   copyText.setSelectionRange(0, 99999)
   document.execCommand("copy");
   alert("The Address Is Copied!");
-}
-function myFunction() {
-  document.getElementById("myText").disabled = true;
 }
 
     </script>
