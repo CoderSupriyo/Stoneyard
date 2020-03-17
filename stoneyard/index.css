@@ -1,11 +1,14 @@
+/* Fonts import */
 @font-face {
     font-family: minecraft;
     src: url(./Minecrafter.Alt.ttf);
   }
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
 html, body{
     margin: 0;
     padding: 0; 
-    background: #24FE41;
+    background: #78EC6C;
 }
 
 .header {
@@ -108,4 +111,28 @@ header {
     header video {
       display: none;
     }
+  }
+
+  /* Contents */
+
+  section{
+    padding: 1em;
+    margin: 10 auto;
+    height: 40vh;
+    display: block;
+    font-family: 'Lobster', cursive;
+  }
+
+  footer{
+    background-color: seagreen;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    padding: 1.5em;
+  }
+
+  footer a{
+    color: white;
   }
